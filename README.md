@@ -12,12 +12,12 @@ The project follows the full research cycle. The current progress is documented 
 ```
 ├── notebooks/
 │   ├── 1_Download_and_Understand_a_Dataset/
-│   │   ├── data_preparation.ipynb            # initial preparation, filtering, and basic cleaning 
-│   │   └── metrics.ipynb                     # high-level metrics
+│   │   ├── data_preparation.ipynb          # initial preparation, filtering, and basic cleaning 
+│   │   └── metrics.ipynb                   # high-level metrics
 │   │
 │   └── 2_Exploratory_Data_Analysis_(part_1)/
-│       ├── data_preparation_v2.ipynb         # revised data preparation notebook 
-│       └── quality_checks.ipynb              # null/special value analysis and structural validation
+│       ├── data_preparation_v2.ipynb       # revised data preparation notebook 
+│       └── quality_checks.ipynb            # null/special value analysis and structural validation
 │
 └── README.md
 ```
