@@ -21,7 +21,10 @@ The project follows the full research cycle. The current progress is documented 
 │   │
 │   └── 3_Exploratory_Data_Analysis_(part_2)/
 │       └── eda.ipynb                       # the core EDA work
-│
+│   │
+│   └── 4._Professional_Behavioural_Research_Report/
+│       └── eda_text.ipynb                  # linguistic quality and modeling
+│       └── pushshift_ai.model              # Word2Vec model
 └── README.md
 ```
 
@@ -29,3 +32,4 @@ The project follows the full research cycle. The current progress is documented 
 *   **Language:** Python 3
 *   **Data Processing and Analysis**: Pandas, NumPy, scikit-learn, joblib, tqdm, re
 *   **Visualization**: Matplotlib, Seaborn
+*   **NLP and Modeling**: gensim, lingua, statsmodels
