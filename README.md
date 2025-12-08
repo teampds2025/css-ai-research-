@@ -17,6 +17,7 @@ Language: Python 3.11.9 (Required for compatibility with specific HDBScan/UMAP w
 * **NLP & Modeling**: BERTopic, Sentence-Transformers, Gensim (Word2Vec), Lingua-language-detector, PyTorch
 * **Visualization**: Matplotlib, Seaborn, Plotly
 * **Clustering**: HDBSCAN, UMAP-learn
+  
 *(See `requirements.txt` for full list)*
 
 ## Setup and Installation
@@ -49,26 +50,30 @@ Language: Python 3.11.9 (Required for compatibility with specific HDBScan/UMAP w
 The project follows the full research cycle. The current progress is documented in the `notebooks/` directory:
 ```
 ├── artifacts/    # BERTopic embeddings and Word2Vec model
-│ 
 ├── figures/ 	  # BERTopic figures
-│ 
+│
 ├── notebooks/
-│   ├── 1_Download_and_Understand_a_Dataset/ 	      # HW3
-│   │
-│   └── 2_Exploratory_Data_Analysis_(part_1)/	      # HW4
-│   │
-│   └── 3_Exploratory_Data_Analysis_(part_2)/	      # HW4
-│   │
-│   └── 4._Professional_Behavioural_Research_Report/  # HW5
-│   │
-│   └── 5._Final_Project_Presentation_&_Code/	      # EXAM
-│ 
+│   ├── 1_Download_and_Understand_a_Dataset/ 	      
+│   │   ├── data_preparation.ipynb          # initial preparation, filtering, and basic cleaning 
+│   │   └── metrics.ipynb                   # high-level metrics
+│   │ 
+│   └── 2_Exploratory_Data_Analysis_(part_1)/	      
+│   │   ├── data_preparation_v2.ipynb       # revised data preparation notebook 
+│   │   └── quality_checks.ipynb            # null/special value analysis and structural validation
+│   │ 
+│   └── 3_Exploratory_Data_Analysis_(part_2)/	      
+│   │    └── eda.ipynb                       # the core EDA work
+│   │ 
+│   └── 4._Professional_Behavioural_Research_Report/  
+│   │   └── eda_text.ipynb                  # linguistic quality and modeling
+│   │ 
+│   └── 5._Final_Project_Presentation_&_Code/	     
+│       └── eda_text_v2.ipynb               # revised linguistic quality notebook
+│       └── topic_modeling.ipynb            # BERTopic analysis
+│
 ├── requirements.txt
-│ 
 └── README.md
 ```
 
 ## Dataset Link
 Available at the [link](https://drive.google.com/drive/folders/1scQ0fZNXA6g10r8wZD1SBsujIhip3PDc?usp=sharing), contains all final datasets for each stage of analysis, respectively.
-```
-
