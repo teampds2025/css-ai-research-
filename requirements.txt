@@ -1,0 +1,29 @@
+# data manipulation
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.7.2
+statsmodels==0.14.5
+
+# visualization
+matplotlib==3.10.7
+seaborn==0.13.2
+plotly==6.5.0
+
+# topic modeling
+bertopic==0.17.4
+sentence-transformers==5.1.2
+gensim==4.4.0
+lingua-language-detector==2.1.1
+
+# clustering and dimensionality reduction
+hdbscan==0.8.40
+umap-learn==0.5.9.post2
+
+# utilities 
+tqdm==4.67.1
+joblib==1.5.2
+
+# dependencies
+pyarrow==22.0.0
+torch==2.9.1
+transformers==4.57.3
